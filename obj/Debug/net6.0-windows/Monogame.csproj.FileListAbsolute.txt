@@ -36,3 +36,11 @@ C:\Users\Admin\Documents\programmering\king\Monogame\obj\Debug\net6.0-windows\Mo
 C:\Users\Admin\Documents\programmering\king\Monogame\obj\Debug\net6.0-windows\Monogame.genruntimeconfig.cache
 C:\Users\Admin\Documents\programmering\king\Monogame\obj\Debug\net6.0-windows\ref\Monogame.dll
 C:\Users\Admin\Documents\programmering\king\Monogame\bin\Debug\net6.0-windows\Content\pixel.xnb
+C:\Users\Admin\Documents\GitHub\Monogame\obj\Debug\net6.0-windows\Monogame.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Monogame\obj\Debug\net6.0-windows\Monogame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Monogame\obj\Debug\net6.0-windows\Monogame.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Monogame\obj\Debug\net6.0-windows\Monogame.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Monogame\obj\Debug\net6.0-windows\Monogame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Monogame\obj\Debug\net6.0-windows\Monogame.dll
+C:\Users\Admin\Documents\GitHub\Monogame\obj\Debug\net6.0-windows\refint\Monogame.dll
+C:\Users\Admin\Documents\GitHub\Monogame\obj\Debug\net6.0-windows\Monogame.pdb

@@ -10,7 +10,7 @@ public class Game1 : Game
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
-    private List<Box> box;
+    private List<Box> boxes = new List<Box>();
     Texture2D pixel;
 
     public Game1()
@@ -35,6 +35,9 @@ public class Game1 : Game
         BoxRight box2 = new BoxRight(pixel, new Vector2(100,250));
         BoxRight box3 = new BoxRight(pixel, new Vector2(100,200));
 
+        boxes.Add(box1);
+        boxes.Add(box2);
+        boxes.Add(box3);
 
         // TODO: use this.Content to load your game content here
     }
@@ -43,7 +46,10 @@ public class Game1 : Game
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
+        foreach(Box box in boxes){
             box.Update();
+        }
+            
 
         // TODO: Add your update logic here
 
@@ -54,7 +60,9 @@ public class Game1 : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
         _spriteBatch.Begin();
-        box.Draw(_spriteBatch);
+        foreach(Box box in boxes){
+            box.Draw(_spriteBatch);
+        }
         _spriteBatch.End();
 
         // TODO: Add your drawing code here

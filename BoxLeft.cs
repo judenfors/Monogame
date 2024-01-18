@@ -4,26 +4,18 @@ using Microsoft.Xna.Framework.Graphics;
 
 public class BoxLeft: Box
 {
-    private Texture2D texture;
-    private Vector2 position;
-    private Rectangle hitbox;
-
-    public BoxLeft(Texture2D texture, Vector2 startPosition): base(texture,startPosition)
+    private float speed = 1;
+    public BoxLeft(Texture2D texture, Vector2 startPosition, float speed = 1)
+    : base(texture,startPosition)
     {
+        this.speed = speed;
     }
 
     public override void Update()
     {
-        position.X--;
+        position.X-= speed;
         hitbox.Location = position.ToPoint();
 
     }
-
-    public void Draw(SpriteBatch spriteBatch)
-    {
-        spriteBatch.Draw(texture,hitbox,Color.Black);
-    }
-
-
 
 }
